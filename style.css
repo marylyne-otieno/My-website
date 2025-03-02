@@ -1,0 +1,164 @@
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+header #lyne {
+    font-size: 32px;
+    font-weight: bold;
+}
+body {
+    background-image: url("images/mary.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 10px;
+
+}
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+
+}
+#home p {
+    font-size: 23px;
+    max-width: 500px;
+    text-align: center;
+}
+#home img {
+    width: 400px;
+    border-radius: 100px;
+    background: transparent;
+
+}
+
+
+.social-icon {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    background: transparent;
+    transition: transform 0.3 ease-in-out;
+    display: flex;
+    justify-content: flex;
+
+
+}
+.social-icon a {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 10px;
+}
+.social-icon:hover {
+    transform: scale(1.1);
+    margin: 2px;
+}
+.social-icon.instragram{
+    width: 40px;
+}
+#about .about{
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 23px;
+    width:  600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+
+
+}
+
+
+    .certificate {
+        display: flex;
+    justify-content: space-around;
+    height: 270px;
+  max-height: 420px;
+  margin: 10px;
+
+
+    }
+    .certificate :hover {
+        transform: scale(1.1);
+}
+
+
+#skills .skills{
+    background-image: url("images/skills.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+width: 600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 50px auto;
+    font-size: 23px;
+
+}
+#skills ul {
+list-style: none;
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+  max-height: 300px;
+  margin: 10px;
+
+}
+.logos :hover {
+
+    transform: scale(1.1);
+
+
+}
+#contact {
+    text-align: center;
+}
+
+#contact .email-button {
+    display: inline-block;
+    padding: 20px 34px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+
+
+  }
+
+  #contact .email-button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+
